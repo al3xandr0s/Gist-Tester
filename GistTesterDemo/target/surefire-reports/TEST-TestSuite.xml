@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.674" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="C:\Users\Alexandros\GistTesterDemoFINAL_FINAL\GistTesterDemo\target\test-classes;C:\Users\Alexandros\GistTesterDemoFINAL_FINAL\GistTesterDemo\target\classes;C:\Users\Alexandros\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\Alexandros\.m2\repository\io\github\cdimascio\dotenv-java\2.3.2\dotenv-java-2.3.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Alexandros\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-testng\7.11.1\cucumber-testng-7.11.1.jar;C:\Users\Alexandros\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Alexandros\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Alexandros\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Alexandros\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Alexandros\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Alexandros\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Alexandros\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Alexandros\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Alexandros\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Alexandros\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Alexandros\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Alexandros\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Alexandros\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Alexandros\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Alexandros\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Alexandros\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\Alexandros\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\Alexandros\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-picocontainer\7.11.1\cucumber-picocontainer-7.11.1.jar;C:\Users\Alexandros\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Nicosia"/>
+    <property name="user.country.format" value="CY"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Alexandros\AppData\Local\Temp\surefire3708384568699180138\surefirebooter-20230329185511974_3.jar C:\Users\Alexandros\AppData\Local\Temp\surefire3708384568699180138 2023-03-29T18-55-11_260-jvmRun1 surefire-20230329185511974_1tmp surefire_0-20230329185511974_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Alexandros\GistTesterDemoFINAL_FINAL\GistTesterDemo\target\test-classes;C:\Users\Alexandros\GistTesterDemoFINAL_FINAL\GistTesterDemo\target\classes;C:\Users\Alexandros\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\Alexandros\.m2\repository\io\github\cdimascio\dotenv-java\2.3.2\dotenv-java-2.3.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Alexandros\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-testng\7.11.1\cucumber-testng-7.11.1.jar;C:\Users\Alexandros\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Alexandros\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Alexandros\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Alexandros\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Alexandros\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Alexandros\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Alexandros\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Alexandros\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Alexandros\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Alexandros\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Alexandros\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Alexandros\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Alexandros\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Alexandros\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Alexandros\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Alexandros\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Alexandros\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\Alexandros\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\Alexandros\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\Alexandros\.m2\repository\io\cucumber\cucumber-picocontainer\7.11.1\cucumber-picocontainer-7.11.1.jar;C:\Users\Alexandros\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Alexandros"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Alexandros\GistTesterDemoFINAL_FINAL\GistTesterDemo"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Alexandros\AppData\Local\Temp\surefire3708384568699180138\surefirebooter-20230329185511974_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="Alexandros"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Alexandros\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ALEXAN~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="cucumber.filter.tags" value="@CreateGist"/>
+    <property name="user.dir" value="C:\Users\Alexandros\GistTesterDemoFINAL_FINAL\GistTesterDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts\;C:\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\node;&quot;C:\Program Files\Java\jdk-19.0.2\bin;C:\Users\Alexandros\AppData\Local\Android\Sdk;C:\Users\Alexandros\AppData\Local\Android\Sdk\tools&quot;;C:\androidSDK\platform-tools;%JAVA_JRE%\bin;C:\Program Files\Git\cmd;C:\Users\Alexandros\AppData\Local\Android\Sdk;C:\Users\Alexandros\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-19.0.2;C:\Program Files\Java\jre1.8.0_361;C:\Program Files\Appium\resources\app\node_modules\appium\node_modules\appium-adb\jars;C:\Appium;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Alexandros\AppData\Local\Android\Sdk\tools\bin;C:\Users\Alexandros\AppData\Local\Android\Sdk\build-tools\30.0.2;C:\Users\Alexandros\AppData\Local\Android\Sdk\emulator\qemu\windows-x86_64;C:\Users\Alexandros\AppData\Local\Android\Sdk\emulator\qemu\windows-x86_64\qemu-system-x86_64.exe;C:\Users\Alexandros\apache-ant-1.9.15-bin\;C:\Users\Alexandros\apache-ant-1.9.15-bin\apache-ant-1.9.15\;C:\Ruby23\bin\;C:\iOSLogInfo\;C:\iOSLogInfo\iOSLogInfo\;C:\Program Files\Java\jre1.8.0_361\bin;C:\Program Files\Java\jdk-19.0.2\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\apache-maven-3.9.0-bin\apache-maven-3.9.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Alexandros\scoop\shims;C:\Ruby27-x64\bin;C:\Users\Alexandros\AppData\Local\Microsoft\WindowsApps;&quot;C:\Users\Alexandros\AppData\Roaming\npm;C:\Users\Alexandros\AppData\Local\Android\sdk\platform-tools;&quot;;C:\Users\Alexandros\.dotnet\tools;C:\Users\Alexandros\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Alexandros\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Create a new public Gist with a single file&quot;, &quot;Create a Gist&quot;](1)" classname="Runners.TestRunner" time="8.871">
+    <system-out><![CDATA[
+@CreateGist @group1
+Scenario: Create a new public Gist with a single file         &amp#27;[90m# src/test/resources/CreateGist.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a valid Github access token&amp#27;[0m                    &amp#27;[90m# StepDefinitions.StepsCreate.setupValidTokenRequest()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a new public Gist with the following details:&amp#27;[0m &amp#27;[90m# StepDefinitions.StepsCreate.createPublicGistWithDetails(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Filename  | Content    | Description      |
+    | file1.txt | file1 data | PUBLIC Gist File |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be 201&amp#27;[0m                        &amp#27;[90m# StepDefinitions.StepsCreate.checkResponse201()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe Gist details should match the input details&amp#27;[0m         &amp#27;[90m# StepDefinitions.StepsCreate.checkInputMatching()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe Gist should be retrievable by its id&amp#27;[0m                &amp#27;[90m# StepDefinitions.StepsCreate.retrieveGistById()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Create a new private Gist with multiple files&quot;, &quot;Create a Gist&quot;](2)" classname="Runners.TestRunner" time="1.744">
+    <system-out><![CDATA[
+@CreateGist @group1
+Scenario: Create a new private Gist with multiple files        &amp#27;[90m# src/test/resources/CreateGist.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a valid Github access token&amp#27;[0m                     &amp#27;[90m# StepDefinitions.StepsCreate.setupValidTokenRequest()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a new private Gist with the following details:&amp#27;[0m &amp#27;[90m# StepDefinitions.StepsCreate.createPrivateGistWithDetails(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Filename  | Content    |
+    | file1.txt | file1 data |
+    | file2.txt | file2 data |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be 201&amp#27;[0m                         &amp#27;[90m# StepDefinitions.StepsCreate.checkResponse201()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe private Gist details should match the input details&amp#27;[0m  &amp#27;[90m# StepDefinitions.StepsCreate.checkInputMatchingPrivateGist()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe Gist should be retrievable by its id&amp#27;[0m                 &amp#27;[90m# StepDefinitions.StepsCreate.retrieveGistById()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Create a new public Gist with an empty file&quot;, &quot;Create a Gist&quot;](3)" classname="Runners.TestRunner" time="0.56">
+    <system-out><![CDATA[
+@CreateGist @group1
+Scenario: Create a new public Gist with an empty file         &amp#27;[90m# src/test/resources/CreateGist.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a valid Github access token&amp#27;[0m                    &amp#27;[90m# StepDefinitions.StepsCreate.setupValidTokenRequest()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a new Gist with an empty file&amp#27;[0m                 &amp#27;[90m# StepDefinitions.StepsCreate.createGistWithNameAsContent()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be 422&amp#27;[0m                        &amp#27;[90m# StepDefinitions.StepsCreate.checkResponse422()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response message should include <&amp#27;[0m&amp#27;[32m&amp#27;[1m"Invalid request"&amp#27;[0m&amp#27;[32m>&amp#27;[0m &amp#27;[90m# StepDefinitions.StepsCreate.theMessageShouldInclude(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

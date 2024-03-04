@@ -1,0 +1,368 @@
+# Created at 2023-03-17T18:31:27.190
+Thread dump for process (26128@DESKTOP-GDTK638):
+"main" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@19.0.2/java.io.WinNTFileSystem.getBooleanAttributes0(Native Method)
+        at java.base@19.0.2/java.io.WinNTFileSystem.getBooleanAttributes(WinNTFileSystem.java:588)
+        at java.base@19.0.2/java.io.FileSystem.hasBooleanAttributes(FileSystem.java:125)
+        at java.base@19.0.2/java.io.File.exists(File.java:834)
+        at java.base@19.0.2/jdk.internal.loader.URLClassPath$FileLoader.getResource(URLClassPath.java:1261)
+        at java.base@19.0.2/jdk.internal.loader.URLClassPath.getResource(URLClassPath.java:322)
+        at java.base@19.0.2/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:757)
+        at java.base@19.0.2/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+        at java.base@19.0.2/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+        at java.base@19.0.2/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+        at java.base@19.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+        at java.base@19.0.2/java.lang.Class.forName0(Native Method)
+        at java.base@19.0.2/java.lang.Class.forName(Class.java:390)
+        at java.base@19.0.2/java.lang.Class.forName(Class.java:381)
+        at app//groovy.lang.MetaClassRegistry$MetaClassCreationHandle.createWithCustomLookup(MetaClassRegistry.java:144)
+        at app//groovy.lang.MetaClassRegistry$MetaClassCreationHandle.create(MetaClassRegistry.java:139)
+        at app//org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:271)
+        at app//org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:314)
+        at app//org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:324)
+        at app//org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:273)
+        at app//org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(InvokerHelper.java:567)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.createPojoMetaClassGetPropertySite(AbstractCallSite.java:390)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.createGetPropertySite(AbstractCallSite.java:361)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.acceptGetProperty(AbstractCallSite.java:346)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:329)
+        at app//io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.parseHeaders(RestAssuredResponseOptionsGroovyImpl.groovy:122)
+        at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl$parseHeaders.callCurrent(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+        at app//io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.parseResponse(RestAssuredResponseOptionsGroovyImpl.groovy:86)
+        at app//io.restassured.internal.RestAssuredResponseImpl.parseResponse(RestAssuredResponseImpl.java:24)
+        at io.restassured.internal.RestAssuredResponseImpl$parseResponse.call(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+        at app//io.restassured.internal.ResponseSpecificationImpl$_HamcrestAssertionClosure_getClosure_closure1.doCall(ResponseSpecificationImpl.groovy:482)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$DMH/0x0000000801252c00.invokeVirtual(LambdaForm$DMH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x00000008011dc000.invoke(LambdaForm$MH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x00000008011ad000.invokeExact_MT(LambdaForm$MH)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:156)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+        at java.base@19.0.2/java.lang.reflect.Method.invoke(Method.java:578)
+        at app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+        at app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+        at app//org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+        at app//groovy.lang.Closure.call(Closure.java:418)
+        at app//io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:158)
+        at app//io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+        at app//io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+        at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+        at app//io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+        at app//io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$DMH/0x0000000801359c00.invokeVirtual(LambdaForm$DMH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x000000080135cc00.invoke(LambdaForm$MH)
+        at java.base@19.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:158)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+        at java.base@19.0.2/java.lang.reflect.Method.invoke(Method.java:578)
+        at app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+        at app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+        at app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+        at app//io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+        at app//org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+        at app//org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+        at app//io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+        at app//io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$DMH/0x00000008012c2c00.invokeVirtual(LambdaForm$DMH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x00000008012cbc00.invoke(LambdaForm$MH)
+        at java.base@19.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:158)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+        at java.base@19.0.2/java.lang.reflect.Method.invoke(Method.java:578)
+        at app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+        at app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+        at app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+        at app//io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+        at app//org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+        at app//io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+        at io.restassured.filter.Filter$filter.call(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+        at app//io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+        at app//io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+        at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@19.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@19.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:245)
+        at java.base@19.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:207)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@19.0.2/java.lang.Object.wait0(Native Method)
+        at java.base@19.0.2/java.lang.Object.wait(Object.java:366)
+        at java.base@19.0.2/java.lang.Object.wait(Object.java:339)
+        at java.base@19.0.2/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+        at java.base@19.0.2/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+        at java.base@19.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+        at java.base@19.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1759)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+        at java.base@19.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+        at java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+        at java.base@19.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+"surefire-forkedjvm-stream-flusher" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+        at java.base@19.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1674)
+        at java.base@19.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+        at java.base@19.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+        at java.base@19.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+        at java.base@19.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+        at java.base@19.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        at java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@19.0.2/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@19.0.2/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:192)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:683)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$600(ForkedBooter.java:80)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:378)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:426)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:366)
+        at java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+
+"ForkJoinPool.commonPool-worker-1" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1889)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1807)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+"ForkJoinPool.commonPool-worker-2" 
+   java.lang.Thread.State: WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1807)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+
+
+# Created at 2023-03-17T18:31:27.195
+Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
+Thread dump before exiting the process (26128@DESKTOP-GDTK638):
+"main" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@19.0.2/java.io.WinNTFileSystem.getBooleanAttributes0(Native Method)
+        at java.base@19.0.2/java.io.WinNTFileSystem.getBooleanAttributes(WinNTFileSystem.java:588)
+        at java.base@19.0.2/java.io.FileSystem.hasBooleanAttributes(FileSystem.java:125)
+        at java.base@19.0.2/java.io.File.exists(File.java:834)
+        at java.base@19.0.2/jdk.internal.loader.URLClassPath$FileLoader.getResource(URLClassPath.java:1261)
+        at java.base@19.0.2/jdk.internal.loader.URLClassPath.getResource(URLClassPath.java:322)
+        at java.base@19.0.2/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:757)
+        at java.base@19.0.2/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+        at java.base@19.0.2/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+        at java.base@19.0.2/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+        at java.base@19.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+        at java.base@19.0.2/java.lang.Class.forName0(Native Method)
+        at java.base@19.0.2/java.lang.Class.forName(Class.java:390)
+        at java.base@19.0.2/java.lang.Class.forName(Class.java:381)
+        at app//groovy.lang.MetaClassRegistry$MetaClassCreationHandle.createWithCustomLookup(MetaClassRegistry.java:144)
+        at app//groovy.lang.MetaClassRegistry$MetaClassCreationHandle.create(MetaClassRegistry.java:139)
+        at app//org.codehaus.groovy.reflection.ClassInfo.getMetaClassUnderLock(ClassInfo.java:271)
+        at app//org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:314)
+        at app//org.codehaus.groovy.reflection.ClassInfo.getMetaClass(ClassInfo.java:324)
+        at app//org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.getMetaClass(MetaClassRegistryImpl.java:273)
+        at app//org.codehaus.groovy.runtime.InvokerHelper.getMetaClass(InvokerHelper.java:567)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.createPojoSite(CallSiteArray.java:119)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.createCallSite(CallSiteArray.java:163)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+        at app//io.restassured.internal.RestAssuredResponseOptionsGroovyImpl$_parseHeaders_closure1.doCall(RestAssuredResponseOptionsGroovyImpl.groovy:123)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$DMH/0x00000008010b1000.invokeVirtual(LambdaForm$DMH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x0000000801255c00.invoke(LambdaForm$MH)
+        at java.base@19.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:155)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+        at java.base@19.0.2/java.lang.reflect.Method.invoke(Method.java:578)
+        at app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+        at app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+        at app//org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+        at app//groovy.lang.Closure.call(Closure.java:418)
+        at app//groovy.lang.Closure.call(Closure.java:434)
+        at app//org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2386)
+        at app//org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:2371)
+        at app//org.codehaus.groovy.runtime.dgm$199.invoke(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:253)
+        at app//org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:57)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+        at app//io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.parseHeaders(RestAssuredResponseOptionsGroovyImpl.groovy:122)
+        at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl$parseHeaders.callCurrent(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+        at app//io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.parseResponse(RestAssuredResponseOptionsGroovyImpl.groovy:86)
+        at app//io.restassured.internal.RestAssuredResponseImpl.parseResponse(RestAssuredResponseImpl.java:24)
+        at io.restassured.internal.RestAssuredResponseImpl$parseResponse.call(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+        at app//io.restassured.internal.ResponseSpecificationImpl$_HamcrestAssertionClosure_getClosure_closure1.doCall(ResponseSpecificationImpl.groovy:482)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$DMH/0x0000000801252c00.invokeVirtual(LambdaForm$DMH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x00000008011dc000.invoke(LambdaForm$MH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x00000008011ad000.invokeExact_MT(LambdaForm$MH)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:156)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+        at java.base@19.0.2/java.lang.reflect.Method.invoke(Method.java:578)
+        at app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+        at app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+        at app//org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:279)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+        at app//groovy.lang.Closure.call(Closure.java:418)
+        at app//io.restassured.internal.RestAssuredHttpBuilder.doRequest(RestAssuredHttpBuilder.java:158)
+        at app//io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:496)
+        at app//io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:453)
+        at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+        at app//io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1480)
+        at app//io.restassured.internal.RequestSpecificationImpl.this$2$sendHttpRequest(RequestSpecificationImpl.groovy)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$DMH/0x0000000801359c00.invokeVirtual(LambdaForm$DMH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x000000080135cc00.invoke(LambdaForm$MH)
+        at java.base@19.0.2/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:158)
+        at java.base@19.0.2/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+        at java.base@19.0.2/java.lang.reflect.Method.invoke(Method.java:578)
+        at app//org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
+        at app//groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
+        at app//groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
+        at app//groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
+        at app//io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+        at app//org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
+        at app//org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
+        at app//org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+        at app//org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+        at app//io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1229)
+        at app//io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSpecificationImpl.groovy)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$DMH/0x00000008012c2c00.invokeVirtual(LambdaForm$DMH)
+        at java.base@19.0.2/java.lang.invoke.LambdaForm$MH/0x00000008012cbc00.invoke(LambdaForm$MH)
+
+"Reference Handler" 
+   java.lang.Thread.State: RUNNABLE
+        at java.base@19.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+        at java.base@19.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:245)
+        at java.base@19.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:207)
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.base@19.0.2/java.lang.Object.wait0(Native Method)
+        at java.base@19.0.2/java.lang.Object.wait(Object.java:366)
+        at java.base@19.0.2/java.lang.Object.wait(Object.java:339)
+        at java.base@19.0.2/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+        at java.base@19.0.2/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+        at java.base@19.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Notification Thread" 
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+        at java.base@19.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1759)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+        at java.base@19.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+        at java.base@19.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+        at java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+        at java.base@19.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)
+
+"surefire-forkedjvm-stream-flusher" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+        at java.base@19.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1674)
+        at java.base@19.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+        at java.base@19.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+        at java.base@19.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+        at java.base@19.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+        at java.base@19.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        at java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at java.management@19.0.2/sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at java.management@19.0.2/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:192)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:683)
+        at app//org.apache.maven.surefire.booter.ForkedBooter.access$600(ForkedBooter.java:80)
+        at app//org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:368)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:426)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.exitByConfiguration(CommandReader.java:438)
+        at app//org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+        at java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+
+"ForkJoinPool.commonPool-worker-1" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1889)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1807)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+"ForkJoinPool.commonPool-worker-2" 
+   java.lang.Thread.State: WAITING
+        at java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+        at java.base@19.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1807)
+        at java.base@19.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+
+
